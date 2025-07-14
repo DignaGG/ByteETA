@@ -39,6 +39,7 @@ namespace ByteRace
             FileSizeToBytes();
             CalculatingTimeInSeconds();
             FormattingTimeInSeconds();
+            Console.ReadLine();
         }
 
         //İnternet Hız Tipi

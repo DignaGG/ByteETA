@@ -1,5 +1,5 @@
 #ByteETA - Download Time Calculator
-
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 This is my first C# project! It calculates how long it would take to download a file based on your internet speed.
 
 ## 📸 ScreenShot

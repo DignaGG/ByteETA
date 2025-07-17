@@ -7,6 +7,13 @@ This is my first C# project! It calculates how long it would take to download a 
 
 # ByteETA Download Calculator - Release Notes
 
+## v1.2 - 18.07.2025  
+### 🔄 Changed  
+- Replaced manual time calculation logic with `TimeSpan` for improved accuracy and readability of download time.
+
+### ✨ Added  
+- Prompt asking users if they want to perform another calculation without restarting the application.
+
 ## v1.1 - 17.07.2025
 ### 🛠️ Fixed
 - Critical calculation errors in download time estimation

@@ -5,8 +5,30 @@ This is my first C# project! It calculates how long it would take to download a 
 ## 📸 ScreenShot
 ![Sample Output](images/screenshot.png)
 
-## 📌 v1.0 Release Notes
-Initial release with basic download time calculation.
+# ByteETA Download Calculator - Release Notes
+
+## v1.1 - 17.07.2025
+### 🛠️ Fixed
+- Critical calculation errors in download time estimation
+- Recursive method call risks
+- File size conversion logic
+
+### ⚡ Improved
+- Input validation for both speed and file size
+- Variable naming and code structure
+- User feedback messages
+
+### 🔄 Changed
+- Math operations order for better accuracy
+- Unit conversion approach
+- Error handling mechanism
+
+## v1.0 - 15.07.2025
+### 🎉 Initial Release
+- Basic download time calculation
+- Supports speed units: Kbps, Mbps, Gbps
+- Supports file size units: KB, MB, GB
+- Console-based interface
 
 ## 💡 Note  
 Since this is my first C# project, there may be some bugs or things that could be improved.  

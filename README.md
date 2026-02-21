@@ -1,46 +1,22 @@
-#ByteETA - Download Time Calculator
+# ByteETA - Professional Download Time Calculator
 
-This is my first C# project! It calculates how long it would take to download a file based on your internet speed.
+ByteETA is a tool designed to calculate file download durations based on various internet speeds. Originally started as a learning project, it is now being completely rebuilt using **Object-Oriented Programming (OOP)** principles and **Clean Code** practices.
 
-## 📸 ScreenShot
-![Sample Output](images/screenshot.png)
+## 🚀 Evolution of the Project
+The initial versions of this project (v1.0 - v1.2) were developed with a procedural approach. To preserve the history of my development journey, those versions have been archived.
 
-# ByteETA Download Calculator - Release Notes
+> [!TIP]
+> You can find the original, procedural source code in the `legacy` branch.
 
-## v1.2 - 18.07.2025  
-### 🔄 Changed  
-- Replaced manual time calculation logic with `TimeSpan` for improved accuracy and readability of download time.
+## 🛠️ Current Goals (In Progress)
+The project is currently undergoing a major refactor to implement:
+- **OOP Architecture:** Separating concerns into Models, Services, and UI layers.
+- **SOLID Principles:** Ensuring the code is modular, maintainable, and scalable.
+- **Advanced Unit Conversion:** Precise byte-level calculations for Kbps, Mbps, Gbps and more.
+- **Professional Git Workflow:** Utilizing feature branches and atomic commits.
 
-### ✨ Added  
-- Prompt asking users if they want to perform another calculation without restarting the application.
+## 📸 Legacy Preview
+![Sample Output](https://raw.githubusercontent.com/DignaGG/ByteETA/legacy/images/screenshot.png)
 
-## v1.1 - 17.07.2025
-### 🛠️ Fixed
-- Critical calculation errors in download time estimation
-- Recursive method call risks
-- File size conversion logic
-
-### ⚡ Improved
-- Input validation for both speed and file size
-- Variable naming and code structure
-- User feedback messages
-
-### 🔄 Changed
-- Math operations order for better accuracy
-- Unit conversion approach
-- Error handling mechanism
-
-## v1.0 - 15.07.2025
-### 🎉 Initial Release
-- Basic download time calculation
-- Supports speed units: Kbps, Mbps, Gbps
-- Supports file size units: KB, MB, GB
-- Console-based interface
-
-## 💡 Note  
-Since this is my first C# project, there may be some bugs or things that could be improved.  
-Feel free to share any feedback or suggestions!
-
-## 📜 License  
-This project is licensed under the MIT License.  
-For more details, see the [LICENSE](LICENSE) file.
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

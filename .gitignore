@@ -421,3 +421,4 @@ FodyWeavers.xsd
 .user
 .suo
 .vs/
+/src/ByteETA.Tests

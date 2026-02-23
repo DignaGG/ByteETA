@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/ByteETA.Core/ByteETA.Core.csproj" />
+  <Project Path="src/ByteETA.UI/ByteETA.UI.csproj" Id="026d1cb7-daa8-454f-82f2-c97103a1cf02" />
+</Solution>
